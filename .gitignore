@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# PyQt
+*.ui~
+*.qm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project specific
+*.png
+*.jpg
+*.jpeg
+!examples/*.png
+!examples/*.jpg
+!docs/images/*.png
+cubicasa_prediction_debug*.png
+yolo_detection_result*.png
+granny_flat_*.png
+
+# Model weights (large files)
+*.pt
+*.pkl
+*.pth
+!models/yolo/best.pt  # Keep the YOLO model
+!models/cubicasa/model/*.pkl  # Keep CubiCasa model
+
+# Data files
+*.json
+!examples/*.json
+*.csv
+*.xml
+*.svg
+
+# Logs
+*.log
+debug_*.png
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Documentation
+docs/_build/
+docs/.doctrees/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+.Trash-*
