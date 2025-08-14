@@ -1,4 +1,29 @@
-MIT License
+LICENSING NOTICE
+
+This project combines multiple components with different licenses:
+
+1. FloorPlanAnalyzer Core Code (this repository's original code):
+   - Licensed under MIT License
+   - Copyright (c) 2024 FloorPlanAnalyzer Contributors
+
+2. CubiCasa5K Model Integration:
+   - Model and techniques based on CubiCasa5K
+   - Original work licensed under Creative Commons Attribution-NonCommercial 4.0
+   - NOT FOR COMMERCIAL USE without separate licensing from CubiCasa
+   - See: https://github.com/CubiCasa/CubiCasa5k
+
+3. YOLOv8 Integration:
+   - Uses Ultralytics YOLOv8
+   - Licensed under AGPL-3.0 (GNU Affero General Public License v3.0)
+   - Commercial use requires Ultralytics Enterprise License
+   - See: https://github.com/ultralytics/ultralytics
+
+IMPORTANT: Due to the inclusion of CubiCasa5K (CC BY-NC 4.0) and YOLOv8 (AGPL-3.0),
+this software is restricted to NON-COMMERCIAL USE ONLY unless you obtain separate
+commercial licenses from the respective copyright holders.
+
+--------------------------------------------------------------------------------
+MIT License (for original code portions only)
 
 Copyright (c) 2024 FloorPlanAnalyzer Contributors
 

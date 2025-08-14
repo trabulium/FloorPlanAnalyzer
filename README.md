@@ -160,15 +160,29 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**IMPORTANT: This software is for NON-COMMERCIAL USE ONLY** due to third-party license restrictions.
 
-### Third-Party Licenses
+See the [LICENSE](LICENSE) file for complete details.
 
-- **CubiCasa5K Model**: MIT License
-- **Ultralytics YOLOv8**: AGPL-3.0 License
-- **PyQt5**: GPL/Commercial License
+### License Summary
 
-Please ensure compliance with all third-party licenses when using this software.
+- **Our Original Code**: MIT License (permissive)
+- **CubiCasa5K Integration**: Creative Commons BY-NC 4.0 (non-commercial only)
+- **YOLOv8 Integration**: AGPL-3.0 (copyleft, commercial use requires enterprise license)
+- **PyQt5**: GPL v3 (copyleft) or Commercial License
+
+### Commercial Use
+
+For commercial use, you must:
+1. Obtain a commercial license from CubiCasa for the CubiCasa5K model
+2. Obtain an enterprise license from Ultralytics for YOLOv8
+3. Either comply with GPL v3 for PyQt5 or obtain a commercial Qt license
+
+### Attribution Requirements
+
+When using this software, please provide appropriate attribution to:
+- CubiCasa5K: Kalervo et al., "CubiCasa5K: A Dataset and an Improved Multi-Task Model for Floorplan Image Analysis"
+- Ultralytics YOLOv8: https://github.com/ultralytics/ultralytics
 
 ## Citation
 
