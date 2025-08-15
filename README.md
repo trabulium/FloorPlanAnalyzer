@@ -1,10 +1,19 @@
 # FloorPlanAnalyzer
 
-A comprehensive floor plan analysis tool with multiple detection methods including deep learning models. Automatically detects rooms, doors, windows, and other architectural elements from floor plan images.
+An experimental floor plan analysis tool with multiple detection methods including deep learning models. Automatically detects rooms, doors, windows, and other architectural elements from floor plan images.
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![PyQt5](https://img.shields.io/badge/PyQt5-5.15%2B-green)
-![License](https://img.shields.io/badge/license-MIT-blue)
+![License](https://img.shields.io/badge/license-Non--Commercial-orange)
+![Platform](https://img.shields.io/badge/platform-macOS%20(ARM)-lightgrey)
+
+## ⚠️ Project Status
+
+**This is an experimental project with mixed results.** While the tool includes several detection methods (traditional CV, YOLOv8, CubiCasa5K), none have achieved fully reliable room detection across diverse floor plan styles. The CubiCasa5K method shows the most promise but still requires refinement.
+
+This code is being shared in case others want to continue development or use it as a starting point for their own floor plan analysis projects.
+
+**Testing:** This code has only been tested on macOS (Apple Silicon/ARM). Compatibility with other platforms is unknown.
 
 ## Features
 
@@ -210,11 +219,28 @@ For the CubiCasa5K model:
 
 For issues, questions, or suggestions, please open an issue on GitHub.
 
-## Roadmap
+## Known Limitations
 
-- [ ] Add support for more file formats (DWG, DXF)
-- [ ] Implement automatic dimension extraction
-- [ ] Add 3D visualization capabilities
-- [ ] Support for multi-story buildings
+- **Room Detection Accuracy**: Current methods often struggle with:
+  - Complex or non-standard floor plan layouts
+  - Plans with extensive annotations or furniture
+  - Varying wall thickness representations
+  - Open floor plans without clear room boundaries
+
+- **Platform Support**: Only tested on macOS with Apple Silicon (M1/M2)
+
+- **Model Dependencies**: Requires downloading large model files separately
+
+## Future Development Ideas
+
+If you want to continue this project, consider:
+
+- [ ] Improving room boundary detection algorithms
+- [ ] Training custom models on larger floor plan datasets
+- [ ] Adding support for more file formats (DWG, DXF)
+- [ ] Implementing automatic dimension extraction
+- [ ] Adding 3D visualization capabilities
+- [ ] Supporting multi-story buildings
 - [ ] Batch processing for multiple floor plans
-- [ ] API for integration with other tools
+- [ ] Creating an API for integration with other tools
+- [ ] Testing and ensuring compatibility with Windows and Linux
