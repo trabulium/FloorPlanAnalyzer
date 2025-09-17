@@ -63,7 +63,7 @@ Download installer from [GitHub](https://github.com/UB-Mannheim/tesseract/wiki)
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/FloorPlanAnalyzer.git
+git clone https://github.com/trabulium/FloorPlanAnalyzer.git
 cd FloorPlanAnalyzer
 ```
 
@@ -201,7 +201,7 @@ If you use this tool in your research, please consider citing:
 @software{floorplananalyzer2024,
   title = {FloorPlanAnalyzer: Multi-Method Floor Plan Analysis Tool},
   year = {2024},
-  url = {https://github.com/yourusername/FloorPlanAnalyzer}
+  url = {https://github.com/trabulium/FloorPlanAnalyzer}
 }
 ```
 
